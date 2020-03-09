@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/smart-face-recognition/static/css/main.5f361e03.chunk.css",
-    "main.js": "/smart-face-recognition/static/js/main.52c466c9.chunk.js",
-    "main.js.map": "/smart-face-recognition/static/js/main.52c466c9.chunk.js.map",
+    "main.css": "/smart-face-recognition/static/css/main.c96be723.chunk.css",
+    "main.js": "/smart-face-recognition/static/js/main.45dafe36.chunk.js",
+    "main.js.map": "/smart-face-recognition/static/js/main.45dafe36.chunk.js.map",
     "runtime-main.js": "/smart-face-recognition/static/js/runtime-main.2d69a1d6.js",
     "runtime-main.js.map": "/smart-face-recognition/static/js/runtime-main.2d69a1d6.js.map",
-    "static/js/2.3d31ddc4.chunk.js": "/smart-face-recognition/static/js/2.3d31ddc4.chunk.js",
-    "static/js/2.3d31ddc4.chunk.js.map": "/smart-face-recognition/static/js/2.3d31ddc4.chunk.js.map",
+    "static/css/2.3b6f1bda.chunk.css": "/smart-face-recognition/static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.4a0476b2.chunk.js": "/smart-face-recognition/static/js/2.4a0476b2.chunk.js",
+    "static/js/2.4a0476b2.chunk.js.map": "/smart-face-recognition/static/js/2.4a0476b2.chunk.js.map",
     "index.html": "/smart-face-recognition/index.html",
-    "precache-manifest.8670ea65b25c1da05d2b598985ab537c.js": "/smart-face-recognition/precache-manifest.8670ea65b25c1da05d2b598985ab537c.js",
+    "precache-manifest.f40a22d25ccc710cf2ffa848fb9bcd87.js": "/smart-face-recognition/precache-manifest.f40a22d25ccc710cf2ffa848fb9bcd87.js",
     "service-worker.js": "/smart-face-recognition/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/smart-face-recognition/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.3d31ddc4.chunk.js.LICENSE.txt": "/smart-face-recognition/static/js/2.3d31ddc4.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/smart-face-recognition/static/media/logo.5d5d9eef.svg"
+    "static/css/2.3b6f1bda.chunk.css.map": "/smart-face-recognition/static/css/2.3b6f1bda.chunk.css.map",
+    "static/css/main.c96be723.chunk.css.map": "/smart-face-recognition/static/css/main.c96be723.chunk.css.map",
+    "static/js/2.4a0476b2.chunk.js.LICENSE.txt": "/smart-face-recognition/static/js/2.4a0476b2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2d69a1d6.js",
-    "static/js/2.3d31ddc4.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.52c466c9.chunk.js"
+    "static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.4a0476b2.chunk.js",
+    "static/css/main.c96be723.chunk.css",
+    "static/js/main.45dafe36.chunk.js"
   ]
 }
