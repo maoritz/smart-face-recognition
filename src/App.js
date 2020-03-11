@@ -17,17 +17,10 @@ const app = new Clarifai.App({
 const particlesOptions = {
   particles: {
     number: {
-      value: 150
-    },
-    size: {
-      value: 3
-    }
-  },
-  interactivity: {
-    events: {
-      onhover: {
+      value: 100,
+      density: {
         enable: true,
-        mode: "repulse"
+        value_area: 800
       }
     }
   }
@@ -78,7 +71,7 @@ class App extends Component {
   };
 
   onRouteChange = route => {
-    if (this.state.route === "signout") {
+    if (route === "signout") {
       this.setState({ isSignedIn: false });
     } else if (route === "home") {
       this.setState({ isSignedIn: true });
