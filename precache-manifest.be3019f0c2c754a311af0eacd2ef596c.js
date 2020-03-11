@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc276eadb2f11af9c8c71f684672768b",
+    "revision": "e3eb60b8879afe19fc6602dd452949a4",
     "url": "/smart-face-recognition/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smart-face-recognition/static/css/2.3b6f1bda.chunk.css"
   },
   {
-    "revision": "199c16ffc56ad0c74ac7",
-    "url": "/smart-face-recognition/static/css/main.9bc6a7c7.chunk.css"
+    "revision": "ca14fc340be620017d3a",
+    "url": "/smart-face-recognition/static/css/main.8e327235.chunk.css"
   },
   {
     "revision": "84a641c618a893e14619",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smart-face-recognition/static/js/2.238a63a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "199c16ffc56ad0c74ac7",
-    "url": "/smart-face-recognition/static/js/main.93a6b12a.chunk.js"
+    "revision": "ca14fc340be620017d3a",
+    "url": "/smart-face-recognition/static/js/main.17ed0392.chunk.js"
   },
   {
     "revision": "66d7c8bbc1bb247d7fec",
