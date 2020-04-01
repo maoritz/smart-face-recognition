@@ -98,11 +98,13 @@ class App extends Component {
           <div>
             <Logo />
             <Rank />
-            <ImageLinkForm
-              onInputChange={this.onInputChange}
-              onButtonSubmit={this.onButtonSubmit}
-            />
-            <FaceRecognition box={box} imageUrl={imageUrl} />
+            <div className="mw8 center pa5 ph6 br3 shadow-5 bg-white">
+              <ImageLinkForm
+                onInputChange={this.onInputChange}
+                onButtonSubmit={this.onButtonSubmit}
+              />
+              <FaceRecognition box={box} imageUrl={imageUrl} />
+            </div>
           </div>
         ) : route === "signin" ? (
           <Signin onRouteChange={this.onRouteChange} />

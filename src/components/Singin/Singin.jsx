@@ -1,8 +1,9 @@
 import React from "react";
+import "./Signin.css";
 
 const Signin = ({ onRouteChange }) => {
   return (
-    <article className="br3 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
+    <article className="br3 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center bg-white">
       <main className="pa4 black-80">
         <div className="measure ">
           <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
@@ -33,7 +34,7 @@ const Signin = ({ onRouteChange }) => {
           <div className="f8">
             <input
               onClick={() => onRouteChange("home")}
-              className="br-pill b ph3 pv2 input-reset ba b--black bg-transparent grow pointer fw8 dib"
+              className="linearGradient br-pill b ph6 ph3 pv2 input-reset ba b--black grow pointer fw8 dib"
               type="submit"
               value="Sign in"
             />
