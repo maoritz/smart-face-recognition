@@ -5,13 +5,7 @@ const FaceRecognition = props => {
   return (
     <div className="center ma">
       <div className="absolute mt2">
-        <img
-          id="inputimage"
-          alt="image"
-          src={props.imageUrl}
-          width="500px"
-          height="auto"
-        />
+        <img id="inputimage" src={props.imageUrl} width="500px" height="auto" />
         <div
           className="bounding-box"
           style={{

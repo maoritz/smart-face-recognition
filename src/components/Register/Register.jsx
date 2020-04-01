@@ -12,7 +12,7 @@ const Register = ({ onRouteChange }) => {
                 Name
               </label>
               <input
-                className="pa2 input-reset ba bg-transparent hover-bg-white hover-blue w-100"
+                className="pa2 input-reset ba bg-white hover-bg-white hover-black w-100"
                 type="email"
                 id="name"
               />
@@ -22,7 +22,7 @@ const Register = ({ onRouteChange }) => {
                 Email
               </label>
               <input
-                className="pa2 input-reset ba bg-transparent hover-bg-white hover-blue w-100"
+                className="pa2 input-reset ba bg-white hover-bg-white hover-black w-100"
                 type="email"
                 name="email-address"
                 id="email-address"
@@ -33,7 +33,7 @@ const Register = ({ onRouteChange }) => {
                 Password
               </label>
               <input
-                className="b pa2 input-reset ba bg-transparent hover-bg-white hover-blue w-100"
+                className="b pa2 input-reset ba bg-white hover-bg-white hover-black w-100"
                 type="password"
                 name="password"
                 id="password"
@@ -43,7 +43,7 @@ const Register = ({ onRouteChange }) => {
           <div className="">
             <input
               onClick={() => onRouteChange("home")}
-              className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
+              className="br-pill b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
               type="submit"
               value="Register"
             />

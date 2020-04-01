@@ -12,7 +12,7 @@ const Signin = ({ onRouteChange }) => {
                 Email
               </label>
               <input
-                className="pa2 input-reset ba bg-transparent hover-bg-white hover-white w-100"
+                className="pa2 input-reset ba bg-white hover-bg-white hover-black w-100 "
                 type="email"
                 name="email-address"
                 id="email-address"
@@ -23,17 +23,17 @@ const Signin = ({ onRouteChange }) => {
                 Password
               </label>
               <input
-                className="b pa2 input-reset ba bg-transparent hover-bg-white hover-white w-100"
+                className="b pa2 input-reset ba bg-white hover-bg-white hover-black w-100"
                 type="password"
                 name="password"
                 id="password"
               />
             </div>
           </fieldset>
-          <div className="">
+          <div className="f8">
             <input
               onClick={() => onRouteChange("home")}
-              className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
+              className="br-pill b ph3 pv2 input-reset ba b--black bg-transparent grow pointer fw8 dib"
               type="submit"
               value="Sign in"
             />
@@ -44,7 +44,7 @@ const Signin = ({ onRouteChange }) => {
                 onRouteChange("register");
               }}
               href="#0"
-              className="f6 link dim black db pointer"
+              className="fw9 link dim black db pointer"
             >
               Register
             </p>
