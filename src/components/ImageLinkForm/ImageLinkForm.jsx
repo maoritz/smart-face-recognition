@@ -3,7 +3,7 @@ import "./ImageLinkForm.css";
 
 const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
   return (
-    <div className="bg-white">
+    <div className="bg-white fontSigali pl4">
       <p className="f3 br-3">
         {
           "This Magic Button will detect faces in your pictures.\
@@ -18,7 +18,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
             onChange={onInputChange}
           />
           <button
-            className="w-30 grow f4 link ph3 pv2 dib white bg-gray"
+            className="linearGradient w-30 ba b--gray dib white pointer prb"
             onClick={onButtonSubmit}
           >
             Detect

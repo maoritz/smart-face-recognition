@@ -3,17 +3,17 @@ import "./Signin.css";
 
 const Signin = ({ onRouteChange }) => {
   return (
-    <article className="br3 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center bg-white">
+    <article className="br3 ba dark-gray b--black-10 mv6 w-100 w-50-m w-25-l mw6 shadow-5 center bg-white fontSigali">
       <main className="pa4 black-80">
         <div className="measure ">
-          <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-            <legend className="f1 fw6 ph0 mh0">Sign In</legend>
+          <fieldset id="sign_up" className="ba b--transparent ph3 mh0">
+            <legend className="f2 fw6 ph0 mh0">Welcome</legend>
             <div className="mt3">
               <label className="db fw6 lh-copy f6" htmlFor="email-address">
                 Email
               </label>
               <input
-                className="pa2 input-reset ba bg-white hover-bg-white hover-black w-100 "
+                className="pa2 input-reset ba bg-white hover-black w-100"
                 type="email"
                 name="email-address"
                 id="email-address"
@@ -24,7 +24,7 @@ const Signin = ({ onRouteChange }) => {
                 Password
               </label>
               <input
-                className="b pa2 input-reset ba bg-white hover-bg-white hover-black w-100"
+                className="pa2 input-reset ba bg-white hover-black w-100"
                 type="password"
                 name="password"
                 id="password"
@@ -34,21 +34,25 @@ const Signin = ({ onRouteChange }) => {
           <div className="f8">
             <input
               onClick={() => onRouteChange("home")}
-              className="linearGradient br-pill b ph6 ph3 pv2 input-reset ba b--black grow pointer fw8 dib"
+              className="linearGradient br-pill ph6 pv2 input-reset ba grow pointer f4 dib"
               type="submit"
-              value="Sign in"
+              value="SIGN IN"
             />
           </div>
           <div className="lh-copy mt3">
-            <p
-              onClick={() => {
-                onRouteChange("register");
-              }}
-              href="#0"
-              className="fw9 link dim black db pointer"
-            >
-              Register
-            </p>
+            <div>
+              Don't have an acount?{" "}
+              <span
+                href="#0"
+                onClick={() => {
+                  onRouteChange("register");
+                }}
+                className="fw9 link dim black db pointer"
+                style={{ display: "inline" }}
+              >
+                Register now
+              </span>
+            </div>
           </div>
         </div>
       </main>
