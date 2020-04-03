@@ -43,7 +43,7 @@ const Register = ({ onRouteChange }) => {
           <div className="">
             <input
               onClick={() => onRouteChange("home")}
-              className="linearGradient br-pill ph5 pv2 input-reset ba grow pointer f4 dib"
+              className="linearGradient br-pill pa2 input-reset ba grow pointer f4 dib w-100"
               type="submit"
               value="CREATE ACCOUNT"
             />

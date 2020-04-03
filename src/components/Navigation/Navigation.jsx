@@ -4,8 +4,8 @@ import Logo from "../Logo/Logo";
 const Navigation = ({ isSignedIn, onRouteChange }) => {
   if (isSignedIn) {
     return (
-      <nav style={{ display: "flex", justifyContent: "flex-end" }}>
-        <div style={{ position: "relative", right: "1583px" }}>
+      <nav style={{ display: "flex", justifyContent: "flex-start" }}>
+        <div style={{ position: "flex" }}>
           <Logo />
         </div>
         <p
@@ -18,8 +18,8 @@ const Navigation = ({ isSignedIn, onRouteChange }) => {
     );
   }
   return (
-    <nav style={{ display: "flex", justifyContent: "flex-end" }}>
-      <div style={{ position: "relative", right: "1730px" }}>
+    <nav style={{ display: "flex", justifyContent: "flex-start" }}>
+      <div style={{ position: "relative" }}>
         <Logo />
       </div>
     </nav>

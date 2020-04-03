@@ -34,7 +34,7 @@ const Signin = ({ onRouteChange }) => {
           <div className="f8">
             <input
               onClick={() => onRouteChange("home")}
-              className="linearGradient br-pill ph6 pv2 input-reset ba grow pointer f4 dib"
+              className="linearGradient br-pill pa2 input-reset ba grow pointer f4 dib w-90"
               type="submit"
               value="SIGN IN"
             />

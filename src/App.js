@@ -11,7 +11,7 @@ import "./App.css";
 import GoogleFontLoader from "react-google-font-loader";
 
 const app = new Clarifai.App({
-  apiKey: "58a6e5300873423c868961a41dbe2a15"
+  apiKey: "58a6e5300873423c868961a41dbe2a15",
 });
 
 const particlesOptions = {
@@ -20,10 +20,10 @@ const particlesOptions = {
       value: 80,
       density: {
         enable: true,
-        value_area: 800
-      }
-    }
-  }
+        value_area: 800,
+      },
+    },
+  },
 };
 
 class App extends Component {
@@ -34,11 +34,11 @@ class App extends Component {
       imageUrl: "",
       box: {},
       route: "signin",
-      isSignedIn: false
+      isSignedIn: false,
     };
   }
 
-  calculateFaceLocation = data => {
+  calculateFaceLocation = (data) => {
     console.log(data);
     const clarifaiFace =
       data.outputs[0].data.regions[0].region_info.bounding_box;
@@ -50,15 +50,15 @@ class App extends Component {
       leftCol: clarifaiFace.left_col * width,
       topRow: clarifaiFace.top_row * height,
       rightCol: width - clarifaiFace.right_col * width,
-      bottomRow: height - clarifaiFace.bottom_row * height
+      bottomRow: height - clarifaiFace.bottom_row * height,
     };
   };
 
-  displayFaceBox = box => {
+  displayFaceBox = (box) => {
     this.setState({ box: box });
   };
 
-  onInputChange = event => {
+  onInputChange = (event) => {
     this.setState({ input: event.target.value });
   };
 
@@ -70,13 +70,13 @@ class App extends Component {
         // URL
         this.state.input
       )
-      .then(response =>
+      .then((response) =>
         this.displayFaceBox(this.calculateFaceLocation(response))
       )
-      .catch(err => console.log(err));
+      .catch((err) => console.log(err));
   };
 
-  onRouteChange = route => {
+  onRouteChange = (route) => {
     if (route === "signout") {
       this.setState({ isSignedIn: false });
     } else if (route === "home") {
@@ -94,12 +94,12 @@ class App extends Component {
           fonts={[
             {
               font: "Roboto",
-              weights: [400, "400i"]
+              weights: [400, "400i"],
             },
             {
               font: "Roboto Mono",
-              weights: [400, 700]
-            }
+              weights: [400, 700],
+            },
           ]}
           subsets={["cyrillic-ext", "greek"]}
         />
@@ -107,17 +107,16 @@ class App extends Component {
           isSignedIn={isSignedIn}
           onRouteChange={this.onRouteChange}
         />
+
         {route === "home" ? (
           <div>
-            <div className="pa5"> </div>
+            <div className="pa4"></div>
             <Rank />
-            <div className="mw8 center pa5 ph6 br3 shadow-5 bg-white">
-              <ImageLinkForm
-                onInputChange={this.onInputChange}
-                onButtonSubmit={this.onButtonSubmit}
-              />
-              <FaceRecognition box={box} imageUrl={imageUrl} />
-            </div>
+            <ImageLinkForm
+              onInputChange={this.onInputChange}
+              onButtonSubmit={this.onButtonSubmit}
+            />
+            <FaceRecognition box={box} imageUrl={imageUrl} />
           </div>
         ) : route === "signin" ? (
           <Signin onRouteChange={this.onRouteChange} />
