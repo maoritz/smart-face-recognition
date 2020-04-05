@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", "Courier New", Courier, monospace;
-  background: linear-gradient(to right, rgb(103, 130, 182), rgb(113, 189, 105));
+  font-family: "Rubik", sans-serif;
+  background: linear-gradient(to right, #413fa0, rgb(161, 240, 147));
 }
 
 button {

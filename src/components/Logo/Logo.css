@@ -1,3 +1,23 @@
-.Tilt {
-  background-color: white;
+.MagicBrain {
+  width: 160px;
+  height: 39px;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.05px;
+  text-align: center;
+  color: #413fa0;
+}
+.MagicBrain .text-style-1 {
+  font-weight: normal;
+}
+
+.Rectangle {
+  width: 39px;
+  height: 42px;
+  border-radius: 7px;
+  border: solid 2px #413fa0;
 }

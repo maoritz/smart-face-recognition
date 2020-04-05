@@ -8,7 +8,6 @@ import Particles from "react-particles-js";
 import FaceRecognition from "./components/FaceRecognition/FaceRecognition";
 import Clarifai from "clarifai";
 import "./App.css";
-import GoogleFontLoader from "react-google-font-loader";
 
 const app = new Clarifai.App({
   apiKey: "58a6e5300873423c868961a41dbe2a15",
@@ -90,19 +89,6 @@ class App extends Component {
     return (
       <div className="App">
         <Particles className="particles" params={particlesOptions} />
-        <GoogleFontLoader
-          fonts={[
-            {
-              font: "Roboto",
-              weights: [400, "400i"],
-            },
-            {
-              font: "Roboto Mono",
-              weights: [400, 700],
-            },
-          ]}
-          subsets={["cyrillic-ext", "greek"]}
-        />
         <Navigation
           isSignedIn={isSignedIn}
           onRouteChange={this.onRouteChange}
