@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/smart-face-recognition/static/css/main.9d7d4b06.chunk.css",
-    "main.js": "/smart-face-recognition/static/js/main.3e88ba9c.chunk.js",
-    "main.js.map": "/smart-face-recognition/static/js/main.3e88ba9c.chunk.js.map",
+    "main.js": "/smart-face-recognition/static/js/main.b78c3251.chunk.js",
+    "main.js.map": "/smart-face-recognition/static/js/main.b78c3251.chunk.js.map",
     "runtime-main.js": "/smart-face-recognition/static/js/runtime-main.2d69a1d6.js",
     "runtime-main.js.map": "/smart-face-recognition/static/js/runtime-main.2d69a1d6.js.map",
     "static/css/2.3b6f1bda.chunk.css": "/smart-face-recognition/static/css/2.3b6f1bda.chunk.css",
     "static/js/2.f0185cf1.chunk.js": "/smart-face-recognition/static/js/2.f0185cf1.chunk.js",
     "static/js/2.f0185cf1.chunk.js.map": "/smart-face-recognition/static/js/2.f0185cf1.chunk.js.map",
     "index.html": "/smart-face-recognition/index.html",
-    "precache-manifest.3f96842e9c8982b3db82ddd6246ab98b.js": "/smart-face-recognition/precache-manifest.3f96842e9c8982b3db82ddd6246ab98b.js",
+    "precache-manifest.1fc4fa8d0d3fcb14746a7212d3ed7202.js": "/smart-face-recognition/precache-manifest.1fc4fa8d0d3fcb14746a7212d3ed7202.js",
     "service-worker.js": "/smart-face-recognition/service-worker.js",
     "static/css/2.3b6f1bda.chunk.css.map": "/smart-face-recognition/static/css/2.3b6f1bda.chunk.css.map",
     "static/css/main.9d7d4b06.chunk.css.map": "/smart-face-recognition/static/css/main.9d7d4b06.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.3b6f1bda.chunk.css",
     "static/js/2.f0185cf1.chunk.js",
     "static/css/main.9d7d4b06.chunk.css",
-    "static/js/main.3e88ba9c.chunk.js"
+    "static/js/main.b78c3251.chunk.js"
   ]
 }
