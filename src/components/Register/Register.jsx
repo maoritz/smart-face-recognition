@@ -40,7 +40,7 @@ const Register = ({ onRouteChange }) => {
             <div className="">
               <input
                 onClick={() => onRouteChange("home")}
-                className="br-pill pa2 input-reset ba grow pointer white f4 dib w-100 b"
+                className="br-pill pa2 input-reset ba grow pointer white f4 dib w-100 fw6 f5"
                 type="submit"
                 style={{ backgroundColor: "#413fa0" }}
                 value="CREATE ACCOUNT"

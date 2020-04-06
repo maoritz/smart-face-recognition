@@ -31,7 +31,7 @@ const Signin = ({ onRouteChange }) => {
             <div className="f8">
               <input
                 onClick={() => onRouteChange("home")}
-                className=" br-pill pa2 input-reset ba grow pointer white f4 dib w5 b"
+                className=" br-pill pa2 input-reset ba grow pointer white dib w5 fw6 f5"
                 style={{ backgroundColor: "#413fa0" }}
                 type="submit"
                 value="SIGN IN"
