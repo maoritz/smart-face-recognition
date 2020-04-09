@@ -2,23 +2,35 @@ import React from "react";
 
 const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
   return (
-    <div>
-      <p className="f3 white">
-        {"This Magic Brain will detect faces in your pictures. Give it a try."}
+    <div className="mt6 ml6 mb4 w-50 f1">
+      <p
+        style={{
+          display: "flex",
+          alignItems: "flex-start",
+          fontSize: "40px",
+          color: "#413fa0",
+          fontWeight: "bold",
+        }}
+      >
+        Magic Brain detects faces in pictures,
+        <br />
+        Just pick an image and let the magic happen.
       </p>
-      <div className="center">
-        <div className="bg-white center pa4 br3 shadow-5">
+      <div className="w-80">
+        <div className="center">
           <input
-            className="f4 pa2 w-70 center curveBorderLeft"
+            style={{ marginLeft: "0" }}
+            className="f4 mt5 w-60 center inputDetect"
             type="tex"
             onChange={onInputChange}
+            placeholder="Image url"
           />
           <button
-            className="w-30 grow f4 link ph3 pv2 dib white curveBorderRight ba b--gray"
-            style={{ backgroundColor: "#413fa0" }}
+            className="w-33 mt5 grow f4 link white curveBorder30 b"
+            style={{ backgroundColor: "#413fa0", border: "none" }}
             onClick={onButtonSubmit}
           >
-            Detect
+            LOAD IMAGE
           </button>
         </div>
       </div>

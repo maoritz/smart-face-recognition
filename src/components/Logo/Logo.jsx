@@ -4,7 +4,7 @@ import "./Logo.css";
 
 const Logo = () => {
   return (
-    <div className="MagicBrain ">
+    <div className="MagicBrain">
       <img src={Icon} alt="logo" />
     </div>
   );

@@ -11,13 +11,3 @@
   text-align: center;
   color: #413fa0;
 }
-.MagicBrain .text-style-1 {
-  font-weight: normal;
-}
-
-.Rectangle {
-  width: 39px;
-  height: 42px;
-  border-radius: 7px;
-  border: solid 2px #413fa0;
-}

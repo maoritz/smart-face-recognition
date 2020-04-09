@@ -1,16 +1,29 @@
 import React from "react";
+import Logo from "../Logo/Logo";
 
 const Navigation = ({ isSignedIn, onRouteChange }) => {
   if (isSignedIn) {
     return (
-      <nav style={{ display: "flex", justifyContent: "flex-start" }}>
-        <div style={{ position: "flex" }}></div>
-        <p
-          onClick={() => onRouteChange("signout")}
-          className="f3 link dim white underline pa3 pointer"
+      <nav className="mr4">
+        {/* <div style={{ position: "flex" }}></div> */}
+        <div style={{ float: "left" }} className="pl6 pt4">
+          <Logo />
+        </div>
+        <div
+          className="ma3 pr5 f5 pt3"
+          style={{ display: "flex", justifyContent: "flex-end" }}
         >
-          Sign Out
-        </p>
+          <p className="pr3 black" style={{ float: "right" }}>
+            Hello, Maor Attias
+          </p>
+          <p
+            onClick={() => onRouteChange("signout")}
+            className="link dim black b pointer pr4"
+            style={{ float: "right" }}
+          >
+            Sign Out
+          </p>
+        </div>
       </nav>
     );
   }
