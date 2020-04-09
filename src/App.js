@@ -100,14 +100,7 @@ class App extends Component {
               onButtonSubmit={this.onButtonSubmit}
             />
             <div>
-              <div
-                className="ml6 w-40 h-50-m"
-                style={{
-                  height: "60%",
-                  borderRadius: "10px",
-                  backgroundColor: "#e3e4ef",
-                }}
-              >
+              <div className="ml6 w-40">
                 <FaceRecognition box={box} imageUrl={imageUrl} />
               </div>
             </div>

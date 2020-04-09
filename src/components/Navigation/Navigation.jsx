@@ -4,7 +4,7 @@ import Logo from "../Logo/Logo";
 const Navigation = ({ isSignedIn, onRouteChange }) => {
   if (isSignedIn) {
     return (
-      <nav className="mr4">
+      <nav className="mr3">
         {/* <div style={{ position: "flex" }}></div> */}
         <div style={{ float: "left" }} className="pl6 pt4">
           <Logo />
